@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EX4DOM</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Prática DOM</h1>
+    <h2>1 Ordenação</h2>
+    <p>
+      Crie um script que preencha a tabela abaixo com valores reais que variam
+      de -1000 a 1000. Depois crie outro script que ordene os valores da tabela,
+      do maior (cima) para o menor (baixo), pintando as letras de #426dff para
+      os positivos e #ff0000 para os negativos.
+    </p>
+    <table id="t1">
+      <th>Valores</th>
+      <tr>
+        <td>00,00</td>
+      </tr>
+      <tr>
+        <td>00,00</td>
+      </tr>
+      <tr>
+        <td>00,00</td>
+      </tr>
+    </table>
+    <div></div>
+    <!-----------------Resposta do Exercício 1------------>
+
+    <!-- script que sorteia valores e preenche a tabela -->
+    <script src="sorteador-tabela.js"></script>
+
+    <!-- script que ordena os valores da primeira tabela -->
+    <script src="ordena-tabela.js"></script>
+
+    <!---------------------------------------------------->
+    <h2>2 Cores</h2>
+    <p>
+      Crie um script que gere uma cor aleatória em hexadecimal e a apresente em
+      um li dentro da lista abaixo, deve-se, também, criar um gradiente linear
+      do branco até esta cor como cor de fundo do li.
+    </p>
+    <ul id="lista-cores" style="list-style: none; padding: 0">
+      <li>Elemento criado por mim</li>
+    </ul>
+
+    <!-----------------Resposta do Exercício 2------------>
+
+    <!-- script para as cores -->
+    <script src="cores.js"></script>
+
+    <!---------------------------------------------------->
+
+    <h2>3 Países</h2>
+    <p>
+      Crie um script que encontre o país com o maior nome e o apresente em uma
+      div azul abaixo da tabela, e risque o pais com o menor nome, colocando sua
+      letra em vermelha
+    </p>
+    <table id="t2">
+      <th>País</th>
+      <tr>
+        <td>Brasil</td>
+      </tr>
+      <tr>
+        <td>Honduras</td>
+      </tr>
+      <tr>
+        <td>Peru</td>
+      </tr>
+      <tr>
+        <td>Alemanha</td>
+      </tr>
+      <tr>
+        <td>China</td>
+      </tr>
+      <tr>
+        <td>Rússia</td>
+      </tr>
+      <tr>
+        <td>Itália</td>
+      </tr>
+      <tr>
+        <td>Indonésia</td>
+      </tr>
+      <tr>
+        <td>Espanha</td>
+      </tr>
+      <tr>
+        <td>Cazaquistão</td>
+      </tr>
+      <tr>
+        <td>Chile</td>
+      </tr>
+      <tr>
+        <td>Argentina</td>
+      </tr>
+      <tr>
+        <td>Croácia</td>
+      </tr>
+      <tr>
+        <td>Portugal</td>
+      </tr>
+      <tr>
+        <td>Venezuela</td>
+      </tr>
+      <tr>
+        <td>Costa do Marfim</td>
+      </tr>
+      <tr>
+        <td>Congo</td>
+      </tr>
+      <tr>
+        <td>México</td>
+      </tr>
+    </table>
+    <div id="paisMaior"></div>
+
+    <!-----------------Resposta do Exercício 3------------>
+    <script src="paises.js"></script>
+    <!---------------------------------------------------->
+
+    <footer
+      style="
+        background: rgba(0, 0, 0, 0.6);
+        color: #f5f5f5;
+        text-align: center;
+        margin-top: 24px;
+        padding: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+        letter-spacing: 0.5px;
+        border-radius: 8px 8  px 0 0;
+      "
+    >
+      Site manipulado por
+      <a
+        href="https://github.com/andreasseituno-dev"
+        target="_blank"
+        style="
+          text-decoration: none;
+          color: #4da6ff;
+          font-weight: bold;
+          transition: color 0.3s ease;
+        "
+        onmouseover="this.style.color='#66ccff'"
+        onmouseout="this.style.color='#4da6ff'"
+        >André Asseituno</a
+      >
+      para a
+      <a
+        href="https://github.com/germinatech"
+        target="_blank"
+        style="
+          text-decoration: none;
+          color: #39ff14;
+          font-weight: bold;
+          transition: color 0.3s ease;
+        "
+        onmouseover="this.style.color='#66ff66'"
+        onmouseout="this.style.color='#39ff14'"
+        >GerminaTech</a
+      >
+    </footer>
+  </body>
+</html>

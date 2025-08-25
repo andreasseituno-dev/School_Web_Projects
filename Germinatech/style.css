@@ -1,0 +1,174 @@
+/* Importação (Google Fonts) */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+/* CSS Reset */
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  background-color: rgb(235, 235, 235);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  height: 150px;
+}
+
+header menu {
+  display: flex;
+}
+
+section {
+  width: 100%;
+  min-height: 550px;
+
+  display: flex;
+  align-items: center;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section#inicio {
+  background-image: url(img/banner.jpg);
+  justify-content: center;
+  text-align: center;
+}
+
+section#linguagens {
+  background-image: url(img/background.png);
+  justify-content: center;
+}
+
+#linguagens .texto {
+  width: 600px;
+}
+
+section#pagina{
+  height: 150%;
+  min-height: 300px;
+}
+
+#pagina .texto p,
+#pagina .texto h2 {
+  color: black;
+  text-align: justify;
+  margin: 10px 30px 10px;
+}
+
+section#wire {
+  background-image: url(img/background2.png);
+  height: 150%;
+  min-height: 300px;
+}
+
+#wire .texto{
+  text-align: justify;
+  margin: 10px 30px 10px;
+}
+
+section#conteudo {
+  display: block;
+  height: 650px;
+}
+
+#conteudo h3 {
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
+
+#conteudo #conjuntoEstruturas {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#conteudo .estrutura {
+  background-color: rgb(223, 223, 223);
+  border: 1px solid gray;
+  width: 30%;
+  min-width: 300px;
+  min-height: 600px;
+  border-radius: 20px;
+}
+
+#conteudo .estrutura img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+#conteudo .estrutura h3 {
+  text-transform: uppercase;
+}
+
+#conteudo .estrutura p {
+  color: black;
+  margin: 15px 15px 50px;
+}
+
+#conteudo .estrutura button {
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+
+button {
+  background-color: rgb(180, 0, 0);
+  color: white;
+  border: 1px solid white;
+  border-radius: 100px;
+  padding: 10px 30px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+
+iframe{
+  margin: 20px;
+}
+
+h1,
+h2,
+p {
+  color: white;
+  margin: 5px;
+}
+
+li {
+  list-style: none;
+  margin: 0px 20px;
+}
+
+.loguinhos {
+  display: flex;
+  align-items: center;
+  margin: 10px 5px;
+}
+
+#logo {
+  position: absolute;
+  border-radius: 50%;
+  top: 70px;
+  margin-left: 30px;
+}
+
+#computador {
+  border-radius: 50%;
+  min-width: 290px;
+  width: 42%;
+  margin: 0px 30px 0px 50px;
+}
+
+#qrcode {
+  width: 250px;
+  height: 250px;
+  margin: 0px 50px 0px 5px;
+}

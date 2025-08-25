@@ -1,0 +1,89 @@
+* {
+  text-align: center;
+}
+
+img {
+  width: 576px;
+}
+
+h1 {
+  color: hsl(151, 84%, 42%);
+}
+
+h2 {
+  color: hsl(151, 84%, 42%);
+  font-size: 24px;
+  line-height: 27px;
+}
+
+p {
+  line-height: 1.625;
+}
+
+#p1 {
+  padding-bottom: 32px;
+}
+
+button {
+  width: 259.94px;
+  height: 38px;
+  background-color: #426dff;
+  color: #eff0e8;
+  padding: 8px 40px;
+  border-radius: 15px;
+  border-color: transparent;
+  margin-bottom: 30px;
+}
+
+.botT {
+  background-color: transparent;
+  border-color: #426dff;
+  color: #426dff;
+}
+
+#strong {
+  font-weight: 800;
+  color: #122418;
+}
+
+#isa1 {
+  height: 392.34;
+}
+
+#sol {
+  height: 445.67px;
+}
+
+#grafite {
+  height: 388.7px;
+}
+
+#carteira {
+  width: 403.19px;
+  height: 403.19px;
+}
+
+#colar {
+  height: 576px;
+}
+
+#logo1 {
+  width: 91px;
+  height: 91px;
+}
+
+#logo2 {
+  width: 194px;
+  height: 91px;
+}
+
+#play,
+#apple {
+  width: 146px;
+  height: 47.84px;
+  margin: 10px 10px;
+}
+
+#fundo {
+  background-color: hsl(151, 84%, 42%);
+}

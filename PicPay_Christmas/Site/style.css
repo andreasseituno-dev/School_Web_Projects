@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "pato";
+  src: url("Montserrat-VariableFont_wght.ttf");
+}
+
+* {
+  font-family: "pato";
+}
+
+body {
+  text-align: center;
+  background-color: #e5e5e5;
+}
+
+table {
+  margin: auto;
+}
+
+p {
+  font-size: 14px;
+  line-height: 13.75px;
+  color: #223322;
+  font-weight: 300;
+}
+
+a {
+  color: #11c77f;
+}
+
+#capa {
+  width: 560px;
+  height: 334.13px;
+  margin-bottom: 20px;
+}
+
+#ifood {
+  width: 99px;
+  height: 53px;
+  margin-bottom: 20px;
+}
+
+#cartao {
+  width: 380px;
+  height: 178px;
+  margin-bottom: 40px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin: 20px 7px;
+}
+
+.strong {
+  font-weight: bolder;
+}
+
+#mensagem1 {
+  color: #11c76f;
+  margin-bottom: 20px;
+  font-weight: 700;
+  line-height: 17.07px;
+}
+
+#mensagem2 {
+  margin-bottom: 40px;
+  font-weight: 700;
+  line-height: 17.07px;
+}
+
+#p1 {
+  line-height: 17.07px;
+  margin-bottom: 20.1px;
+  font-weight: 400;
+}
+
+#p2 {
+  font-size: 11px;
+  line-height: 13.75px;
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+#p3 {
+  margin-bottom: 40px;
+}
+
+#p4 {
+  line-height: 24px;
+  color: #222222;
+}
+
+#p5 {
+  margin-bottom: 105px;
+}

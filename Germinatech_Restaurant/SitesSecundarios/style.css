@@ -1,0 +1,183 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+header {
+  background-image: linear-gradient(90deg, purple, darkgreen);
+}
+main {
+  width: 800px;
+  margin: auto;
+}
+
+footer {
+  background-color: rgb(0, 0, 30);
+  text-align: center;
+  padding-top: 10px;
+}
+
+#inicio {
+  display: inline-block;
+  margin-right: auto;
+}
+
+#centro {
+  display: inline-block;
+}
+
+#final {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  margin-left: auto;
+}
+
+#logo {
+  width: 80px;
+  height: 80px;
+}
+
+.logos {
+  width: 50px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  flex-flow: row nowrap;
+  margin: 2px;
+}
+
+#fcontent {
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: center;
+}
+
+header #botao {
+  float: right;
+  margin: 42px 10px;
+}
+
+header button {
+  background-color: red;
+  border: 0px;
+  text-align: justify;
+  margin: 0px 5px;
+}
+
+button p {
+  color: white;
+}
+
+header button:hover {
+  background-color: rgb(235, 235, 235);
+  transition: 0.5s;
+}
+
+button p:hover {
+  color: black;
+  font-weight: bold;
+  transition: 0.5s;
+  padding: 10px 13px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+footer strong {
+  color: olive;
+}
+
+footer .containerR {
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+}
+
+footer #licença {
+  color: rgb(128, 128, 128);
+  font-size: 14px;
+  background-color: rgb(0, 30, 0);
+  margin-bottom: 0px;
+}
+
+footer #opcoes {
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+
+footer h3 {
+  font-size: 14px;
+  color: gray;
+}
+
+#secao1 {
+  width: 450px;
+  margin: auto;
+}
+
+h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  text-align: center;
+  margin: 20px;
+}
+
+h2 {
+  color: darkgreen;
+  font-family: serif;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 700;
+  margin: 20px;
+}
+
+p {
+  padding: 10px;
+}
+
+#inicio {
+  text-indent: 20px;
+}
+
+.container {
+  background-color: rgba(177, 247, 177, 0.3);
+  width: 350px;
+  margin: auto;
+  padding: 15px;
+}
+
+.container p {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.container2 {
+  width: fit-content;
+  display: inline-block;
+  margin: 15px 50px;
+}
+
+.container2 h2 {
+  font-size: 16px;
+}
+
+main img {
+  width: 150px;
+  height: 100px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+picture p {
+  font-size: 20px;
+  font-family: cursive;
+}

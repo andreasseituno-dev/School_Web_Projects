@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Produtos</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <input type="checkbox" name="checkbox" id="checkbox" />
+    <header>
+      <h2 id="titulo">FRONT <strong>TECNOLOGIA</strong></h2>
+      <button id="barras"><label for="checkbox">XX</label></button>
+      <a href="../index.html"><button id="sair">Sair</button></a>
+    </header>
+    <aside>
+      <img src="../Imagens/img-1.png" alt="logo Swift" id="swift" />
+      <h3 id="entrar">Entrar</h3>
+      <nav>
+        <button>
+          <img src="../Imagens/computador.png" alt="computador" class="logo" />
+          <span class="texto">Institucional</span>
+        </button>
+        <a href="/Site do Professor/index.html"
+          ><button>
+            <img
+              src="../Imagens/calendario.png"
+              alt="calendario"
+              class="logo"
+            />
+            <span class="texto">Produtos</span>
+          </button></a
+        >
+        <button>
+          <img
+            src="../Imagens/camera.webp"
+            alt="Camera fotográfica"
+            class="logo"
+          />
+          <span class="texto">Galeria</span>
+        </button>
+        <button>
+          <img
+            src="../Imagens/circulo i.png"
+            alt="Círculo com I"
+            class="logo"
+          />
+          <span class="texto">Sobre</span>
+        </button>
+        <button>
+          <img src="../Imagens/engrenagem.png" alt="engrenagem" class="logo" />
+          <span class="texto">Contato</span>
+        </button>
+      </nav>
+    </aside>
+    <div id="espacamento">
+      <h1>Cadastro de produtos J&F</h1>
+      <div id="centro">
+        <main>
+          <h2>Adicionar Produto</h2>
+          <div class="opcao">
+            <label for="marca">Marca: </label>
+            <select name="marca" id="marca">
+              <option value=""></option>
+              <option value="Seara">Seara</option>
+              <option value="Swift">Swift</option>
+              <option value="Friboi">Friboi</option>
+            </select>
+          </div>
+          <div class="opcao">
+            <label for="name">Produto: </label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div class="opcao">
+            <label for="number">Código: </label>
+            <input type="number" name="number" id="number" />
+          </div>
+          <div class="opcao">
+            <label for="preco">Preço: </label>
+            <input type="number" name="preco" id="preco" />
+          </div>
+          <button class="professor" onclick="addProduto()">Adicionar</button>
+        </main>
+        <article>
+          <h2>Remover produto</h2>
+          <div class="opcao">
+            <label for="codigo_remover">Código do produto: </label>
+            <input type="number" name="codigo_remover" id="codigo_remover" />
+          </div>
+          <button class="professor" onclick="removeProduto()">Remover</button>
+        </article>
+      </div>
+      <hr />
+      <h3>Produtos no mercado:</h3>
+      <section id="resultado">
+        <div>
+          <h2>Seara</h2>
+          <ul id="lista-seara"></ul>
+        </div>
+        <div>
+          <h2>Swift</h2>
+          <ul id="lista-swift"></ul>
+        </div>
+        <div>
+          <h2>Friboi</h2>
+          <ul id="lista-friboi"></ul>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

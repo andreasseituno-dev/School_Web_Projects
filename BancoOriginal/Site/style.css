@@ -1,0 +1,103 @@
+* {
+  text-align: center;
+}
+
+table {
+  text-align: left;
+  margin-left: 400px;
+}
+
+img {
+  width: 600px;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 35px;
+  color: #00a857;
+  font-weight: 700;
+  text-align: left;
+  margin-left: 420px;
+  margin-bottom: 60px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 71px;
+  color: #ffffff;
+  margin-bottom: 60px;
+  text-align: left;
+  margin-left: 420px;
+}
+
+.a {
+  margin-left: 25px;
+}
+
+.linha {
+  text-align: left;
+  font-weight: 700;
+  line-height: 23px;
+  margin-left: 30px;
+}
+
+.logo {
+  width: 56px;
+  height: 56px;
+}
+
+.logozinho {
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+}
+
+#textoG {
+  color: #4a4b4a;
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 56px;
+  padding: 28px 33px;
+}
+
+#textoP {
+  color: #00a857;
+  size: 16px;
+  line-height: 20px;
+}
+
+#p1 {
+  line-height: 23px;
+}
+
+#oi {
+  text-align: left;
+  margin-left: 420px;
+}
+
+#fundo {
+  background-color: black;
+}
+
+#capa1 {
+  height: 163px;
+  margin-bottom: 60;
+}
+
+#capa2 {
+  width: 540px;
+  height: 96.72px;
+}
+
+#linhas {
+  height: 131px;
+}
+
+#app {
+  height: 576px;
+}
+
+#completo {
+  height: 272px;
+  margin-bottom: 30px;
+}

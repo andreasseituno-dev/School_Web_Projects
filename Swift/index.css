@@ -1,0 +1,96 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  background: url(Imagens/img-3.jpg) no-repeat;
+  background-position: -280px center;
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+header {
+  background-color: rgb(5, 5, 60);
+  padding: 12px;
+}
+
+aside {
+  background-color: rgb(20, 20, 80);
+  display: inline-block;
+  width: 250px;
+  height: 86%;
+}
+
+button {
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.95);
+  display: inline-block;
+  border: none;
+}
+
+nav button {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  padding: 20px;
+}
+
+nav button:hover {
+  background-color: rgb(44, 129, 194);
+  transition: 0.5s;
+}
+
+h2 {
+  display: inline-block;
+  color: rgba(255, 255, 255);
+}
+
+h2 > strong {
+  color: rgb(0, 122, 237);
+}
+
+h3 {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.86);
+}
+
+#sair {
+  background-color: rgb(0, 200, 255);
+  width: 40px;
+  height: 30px;
+  border-radius: 2px;
+  float: right;
+  cursor: pointer;
+}
+
+#barras {
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+img#swift {
+  display: block;
+  margin: auto;
+  width: 120px;
+  padding: 30px 0px 5px;
+}
+
+img.logo {
+  float: left;
+  width: 20px;
+  margin-left: 25px;
+}
+
+#checkbox {
+  position: absolute;
+  visibility: hidden;
+}
+
+#checkbox:checked ~ aside {
+  width: 120px;
+  transition: 0.2s;
+}
+
+#checkbox:checked ~ aside .texto {
+  display: none;
+}
