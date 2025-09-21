@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Germinabank</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Germinabank</h1>
+    </header>
+    <main>
+      <h2>Conta</h2>
+      <label for="banco">Banco: </label>
+      <select name="banco" id="banco">
+        <option value=""></option>
+        <option value="Original">Original</option>
+        <option value="Picpay">Picpay</option>
+      </select>
+      <label for="name">Nome: </label>
+      <input type="text" name="name" id="name" />
+      <label for="number">Código: </label>
+      <input type="number" name="number" id="number" />
+      <label for="saldo">Saldo: </label>
+      <input type="number" name="saldo" id="saldo" />
+      <button onclick="criarConta()">Criar</button>
+    </main>
+    <hr />
+    <article>
+      <h2>Transferência</h2>
+      <label for="conta_origem">Origem: </label>
+      <input type="number" name="conta_origem" id="conta_origem" />
+      <label for="conta_destino">Destino: </label>
+      <input type="number" name="conta_destino" id="conta_destino" />
+      <label for="valor">Valor: </label>
+      <input type="number" name="valor" id="valor" />
+      <label for="meio">Meio: </label>
+      <select name="meio" id="meio">
+        <option value=""></option>
+        <option value="PIX">PIX</option>
+        <option value="TED">TED</option>
+        <option value="DOC">DOC</option>
+      </select>
+      <button onclick="transferir()">Transferir</button>
+    </article>
+    <hr />
+    <h3>Bancos:</h3>
+    <section id="resultado">
+      <div>
+        <h2>Original</h2>
+        <ul id="lista-original">
+          <li class="cb" id="oc1"></li>
+          <li class="cb" id="oc2"></li>
+          <li class="cb" id="oc3"></li>
+          <li class="cb" id="oc4"></li>
+          <li class="cb" id="oc5"></li>
+          <li class="cb" id="oc6"></li>
+          <li class="cb" id="oc7"></li>
+          <li class="cb" id="oc8"></li>
+          <li class="cb" id="oc9"></li>
+          <li class="cb" id="oc10"></li>
+          <li class="cb" id="oc11"></li>
+          <li class="cb" id="oc12"></li>
+          <li class="cb" id="oc13"></li>
+          <li class="cb" id="oc14"></li>
+          <li class="cb" id="oc15"></li>
+          <li class="cb" id="oc16"></li>
+          <li class="cb" id="oc17"></li>
+          <li class="cb" id="oc18"></li>
+          <li class="cb" id="oc19"></li>
+          <li class="cb" id="oc20"></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Picpay</h2>
+        <ul id="lista-picpay">
+          <li class="cb" id="pc1"></li>
+          <li class="cb" id="pc2"></li>
+          <li class="cb" id="pc3"></li>
+          <li class="cb" id="pc4"></li>
+          <li class="cb" id="pc5"></li>
+          <li class="cb" id="pc6"></li>
+          <li class="cb" id="pc7"></li>
+          <li class="cb" id="pc8"></li>
+          <li class="cb" id="pc9"></li>
+          <li class="cb" id="pc10"></li>
+          <li class="cb" id="pc11"></li>
+          <li class="cb" id="pc12"></li>
+          <li class="cb" id="pc13"></li>
+          <li class="cb" id="pc14"></li>
+          <li class="cb" id="pc15"></li>
+          <li class="cb" id="pc16"></li>
+          <li class="cb" id="pc17"></li>
+          <li class="cb" id="pc18"></li>
+          <li class="cb" id="pc19"></li>
+          <li class="cb" id="pc20"></li>
+        </ul>
+      </div>
+    </section>
+    <hr />
+    <h3>Transferências:</h3>
+    <section id="transferencias">
+      <div>
+        <h2>Histórico</h2>
+        <ul id="lista-historico">
+          <li id="t1"></li>
+          <li id="t2"></li>
+          <li id="t3"></li>
+          <li id="t4"></li>
+          <li id="t5"></li>
+          <li id="t6"></li>
+          <li id="t7"></li>
+          <li id="t8"></li>
+          <li id="t9"></li>
+          <li id="t10"></li>
+          <li id="t11"></li>
+          <li id="t12"></li>
+          <li id="t13"></li>
+          <li id="t14"></li>
+          <li id="t15"></li>
+          <li id="t16"></li>
+          <li id="t17"></li>
+          <li id="t18"></li>
+          <li id="t19"></li>
+          <li id="t20"></li>
+        </ul>
+      </div>
+    </section>
+        <footer
+      style="
+        background: rgba(0, 0, 0, 0.6);
+        color: #f5f5f5;
+        text-align: center;
+        margin-top: 24px;
+        padding: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+        letter-spacing: 0.5px;
+        border-radius: 8px 8  px 0 0;
+      "
+    >
+      Site manipulado por
+      <a
+        href="https://github.com/andreasseituno-dev"
+        target="_blank"
+        style="
+          text-decoration: none;
+          color: #4da6ff;
+          font-weight: bold;
+          transition: color 0.3s ease;
+        "
+        onmouseover="this.style.color='#66ccff'"
+        onmouseout="this.style.color='#4da6ff'"
+        >André Asseituno</a
+      >
+      para a
+      <a
+        href="https://github.com/germinatech"
+        target="_blank"
+        style="
+          text-decoration: none;
+          color: #39ff14;
+          font-weight: bold;
+          transition: color 0.3s ease;
+        "
+        onmouseover="this.style.color='#66ff66'"
+        onmouseout="this.style.color='#39ff14'"
+        >GerminaTech</a
+      >
+    <script src="index.js" defer></script>
+  </body>
+</html>

@@ -18,6 +18,12 @@ Landing page for a fictional landing page of the course, built with **HTML** and
 
 ---
 
+### Germinabank (2022-09-16)  
+[🔗 Live Demo](https://andreasseituno-dev.github.io/School_Web_Projects/Germinabank/)  
+Experimenting with **JavaScript DOM manipulation** (buttons, events, dynamic updates).  
+
+---
+
 ### Swift (2022-10-15)  
 [🔗 Live Demo](https://andreasseituno-dev.github.io/School_Web_Projects/Swift/)  
 Hero section of Swift brand website, built with **HTML** and **CSS**. 
